@@ -1,0 +1,42 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem; /* Use scalable units */
+  border-top: 2px solid blue; /* Consistent with the header styling */
+}
+
+.footer a {
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: yellow; /* Add a hover color to match the header's accent */
+}
+
+/* Tablet devices */
+@media (max-width: 900px) {
+  .footer {
+    font-size: 0.875rem; /* Slightly smaller text for medium devices */
+    padding: 18px; /* Adjusted padding for smaller screens */
+  }
+
+  .footer a {
+    margin: 0 8px; /* Reduced margin */
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .footer {
+    padding: 15px;
+    font-size: 0.75rem; /* Smaller text for mobile devices */
+  }
+
+  .footer a {
+    margin: 0 5px; /* Further reduce margins for compact layout */
+  }
+}

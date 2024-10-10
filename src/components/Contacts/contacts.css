@@ -1,0 +1,27 @@
+#contactsSection{
+    border-bottom: 2px solid blue;
+    height: cal(100vh - 108px);
+    padding:80px 20px
+}
+h1 {
+    font-size: xxx-large;
+    color: yellow;
+}
+
+h2 {
+    font-size: xx-large;
+    margin: 0px;
+    color:blue;
+}
+
+h3 {
+    font-size: x-large;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color:white;
+}
+.contact-info{
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+}

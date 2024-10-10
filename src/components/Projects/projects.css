@@ -1,0 +1,16 @@
+#projectsSection {
+    border-bottom: 2px solid blue;
+    height: cal(100vh - 125px);
+    padding:80px 20px
+}
+
+h1 {
+    font-size: xxx-large;
+    color: yellow;
+}
+
+h2 {
+    font-size: xx-large;
+    margin: 0px;
+    color:blue;
+}

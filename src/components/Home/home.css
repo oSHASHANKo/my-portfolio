@@ -1,0 +1,94 @@
+#homeSection {
+  border-bottom: 2px solid blue;
+  padding-top: 108px;
+  padding-bottom: 50px;
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 108px;
+  padding-top: 108px;
+}
+
+.homeText {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 350px; /* Default image size */
+  border: 2px solid blue;
+  box-shadow: 2px 2px 2px blue;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Adjust font sizes for headings */
+.greeting1, .greeting2, .greeting3 {
+  font-size: 3rem; /* Use rem for scalable fonts */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.greeting1 {
+  color: yellow;
+}
+
+.greeting2 {
+  color: blue;
+}
+
+.greeting3 {
+  color: white;
+}
+
+/* Tablet Devices */
+@media (max-width: 900px) {
+  .homeContent {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  img {
+    width: 300px; /* Adjust image size for tablets */
+  }
+
+  .greeting1, .greeting2, .greeting3 {
+    font-size: 2.5rem; /* Reduce font size for medium screens */
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+  #homeSection {
+    padding-top: 125px;
+    padding-bottom: 30px;
+  }
+
+  .homeContent {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  img {
+    width: 250px; /* Further reduce image size for small screens */
+  }
+
+  .greeting1, .greeting2, .greeting3 {
+    font-size: 2rem; /* Smaller font size for mobile */
+  }
+
+  .homeText {
+    margin: 0 15px; /* Add some side margins for text */
+    text-align: center; /* Center the text on mobile for better flow */
+  }
+}
