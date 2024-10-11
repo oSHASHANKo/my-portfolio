@@ -46,10 +46,6 @@ h4 {
     transition: transform 0.3s; /* Smooth scaling effect on hover */
 }
 
-.projectCard:hover {
-    transform: scale(1.05); /* Scale up on hover */
-}
-
 /* Images in project cards */
 img {
     max-width: 100%; /* Responsive image */
