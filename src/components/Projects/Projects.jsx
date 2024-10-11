@@ -5,7 +5,7 @@ export const Projects = () => {
   const projectData = [
     {
       title: "My Portfolio",
-      image: "./assets/my-portfolio.png",
+      image: "./my-portfolio/assets/my-portfolio.png",
       githubLink: "https://github.com/yourusername/project-one",
     },
   ];
