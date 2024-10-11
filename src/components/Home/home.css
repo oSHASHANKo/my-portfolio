@@ -14,23 +14,63 @@
   justify-content: center;
 }
 .greeting1{
-  font-size: xxx-large;
+  font-size: 3rem;
   color: yellow;
 
 }
 .greeting2{
-  font-size: xxx-large;
+  font-size: 3rem;
   color:blue
 
 }
 .greeting3{
-  font-size: xxx-large;
+  font-size: 3rem;
   color:white
 
 }
 img{
   border: 2px solid blue;
   margin: 25px 25px;
-  width: 300px;
+  width: 350px;
   height: auto;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (max-width: 480px) {
+  .homeContent{
+    flex-direction: column;
+    justify-content: center;
+    padding:30px 0px;
+    align-items: center;
+  }
+  .homeText{
+    display: flex;
+    flex-direction:column;
+  }
+  .greeting1{
+    font-size: 2.5rem;
+    color: yellow;
+    margin-bottom: 0px;
+  }
+  .greeting2{
+    font-size: 2.5rem;
+    color:blue;
+    margin-top:0px;
+    margin-bottom: 0px;
+  }
+  .greeting3{
+    font-size: 2.5rem;
+    color:white;
+    margin-top:0px;
+  }
+  img{
+    margin:0px 0px;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }

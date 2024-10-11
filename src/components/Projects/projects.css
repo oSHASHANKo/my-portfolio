@@ -2,15 +2,15 @@
     border-bottom: 2px solid blue;
 
 }
-h1{
+#projectsSection h1{
     color: yellow;
-    font-size: xxx-large;
+    font-size: 3rem;
     margin-bottom: 0px;
 
 }
-h2{
+#projectsSection h2{
     color:blue;
-    font-size:xx-large;
+    font-size:2.5rem;
     margin-top: 0px;
 
 }
@@ -28,17 +28,38 @@ h2{
     text-align: center;
     padding: 20px 0px;
 }
-img{
+.projectCard img{
     border:2px solid blue;
     margin-top: 10px;
     border-radius: 10px;
 }
 .projectCard h3{
-    font-size: x-large;
-    margin-top: 5px;
+    color: white;
+    font-size: 1.5rem;
     margin-bottom: 5px;
 }
 .projectCard a{
-    font-size: x-large;
+    color: white;
+    font-size: 1.5rem;
     margin-bottom: 100px;
+    text-decoration: none;
+}
+.projectCard a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    #projectsSection h1{
+        font-size: 2.5rem;    
+    }
+    #projectsSection h2{
+        font-size:2rem;    
+    }
+    .projectCards{
+        padding: 0px 0px;
+    }
+    .projectCard{
+        padding: 20px 20px;
+    }
 }

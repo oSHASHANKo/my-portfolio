@@ -4,22 +4,22 @@
 .aboutContent{
 }
 
-h1{
+.aboutContent h1{
     color: yellow;
-    font-size: xxx-large;
+    font-size: 3rem;
     margin-bottom: 0px;
 
 }
-h2{
+.aboutContent h2{
     color:blue;
-    font-size:xx-large;
+    font-size:2.5rem;
     margin-top: 0px;
 
 }
-p
+.aboutContent p
 {
     color:white;
-    font-size:xx-large;
+    font-size:2rem;
 }
 .resume{
     display: block;
@@ -30,4 +30,19 @@ p
     border-radius: 10px;
     color: white;
     background-color: blue;
+}
+
+@media (max-width: 480px) {
+    .aboutContent h1{
+        font-size: 2.5rem;
+        margin-bottom: 0px;
+    
+    }
+    .aboutContent h2{
+        font-size:2rem;    
+    }
+    .aboutContent p
+    {
+        font-size:1.5rem;
+    }
 }
