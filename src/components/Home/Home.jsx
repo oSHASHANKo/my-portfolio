@@ -10,7 +10,7 @@ export const Home = () => {
           <h1 className="greeting2">I am Shashank Shetty</h1>
           <h1 className="greeting3">I am a Software Developer</h1>
         </div>
-        <img src="./my-portfolio/assets/profile-picture.JPG"></img>
+        <img src="/my-portfolio/assets/profile-picture.JPG"></img>
       </div>
     </div>
   );
