@@ -1,7 +1,7 @@
 #contactsSection {
     border-bottom: 2px solid blue;
     height: calc(100vh - 108px); /* Fixed typo: changed 'cal' to 'calc' */
-    padding: 110px 20px;
+    padding: 110px 50px;
 }
 
 /* Headings styles */
