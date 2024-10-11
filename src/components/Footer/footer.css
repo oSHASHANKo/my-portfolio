@@ -1,7 +1,9 @@
 .footer {
+  margin-top: 25px;
   text-align: center;
   padding: 20px;
   font-size: 1rem; /* Use scalable units */
+  border-top: 2px solid blue;
 }
 
 .footer a {
