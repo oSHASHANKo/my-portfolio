@@ -23,7 +23,9 @@ export const About = () => {
             new challenges and explore innovative ways to make a difference.
           </p>
       </div>
-      <button className="resume">Download Resume</button>
+      <a href="/my-portfolio/assets/RESUME_PDF.pdf" download>
+        <button className="resume">Download Resume</button>
+      </a>
     </div>
   );
 }
