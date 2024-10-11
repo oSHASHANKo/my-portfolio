@@ -12,13 +12,14 @@ export const Projects = () => {
   
   return (
     <div id="projectsSection">
+      <br/><br/><br/>
       <h1>My Projects</h1>
       <h2>Have a look at my work</h2>
       <div className="projectCards">
         {projectData.map((project, index) => (
           <div key={index} className="projectCard">
             <img src={project.image} alt={project.title} />
-            <h4>{project.title}</h4>
+            <h3>{project.title}</h3>
             <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
               View on GitHub
             </a>

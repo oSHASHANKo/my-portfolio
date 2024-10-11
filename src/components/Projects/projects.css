@@ -1,116 +1,44 @@
-#projectsSection {
+#projectsSection{
     border-bottom: 2px solid blue;
-    min-height: calc(100vh - 125px); /* Ensure the height is responsive */
-    padding: 110px 20px;
-}
 
-/* Headings */
-h1 {
-    font-size: 3rem; /* Use rem for better scalability */
+}
+h1{
     color: yellow;
-}
+    font-size: xxx-large;
+    margin-bottom: 0px;
 
-h2 {
-    font-size: 2rem;
-    margin: 10px 0;
-    color: blue;
 }
+h2{
+    color:blue;
+    font-size:xx-large;
+    margin-top: 0px;
 
-h4 {
-    font-size: 1.5rem;
-    margin: 10px 0;
-    color: yellow;
 }
-
-/* Project cards container */
-.projectCards {
-    margin: 20px 0;
+.projectCards{
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping of cards for responsiveness */
-    justify-content: space-evenly; /* Center the cards horizontally */
-    align-items: stretch; /* Stretch cards to the same height */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 50px;
 }
-
-/* Individual project card */
-.projectCard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px; /* Default width */
+.projectCard{
+    width:min-content;
     border: 2px solid white;
-    border-radius: 15px; /* Modern look */
-    text-align: center;
-    padding: 20px;
-    margin: 15px;
-    box-shadow: 0 4px 8px white; /* Add shadow for depth */
-    transition: transform 0.3s; /* Smooth scaling effect on hover */
-}
-
-/* Images in project cards */
-img {
-    max-width: 100%; /* Responsive image */
-    height: auto; /* Maintain aspect ratio */
-    border: 2px solid blue;
     border-radius: 10px;
-    margin-bottom: 15px; /* Space below image */
+    margin: 20px 20px;
+    text-align: center;
+    padding: 20px 0px;
 }
-
-/* Links */
-a {
-    margin: 10px 0;
-    text-decoration: none; /* Remove underline */
-    color: white; /* Set link color */
-    font-weight: bold; /* Make the link bold */
+img{
+    border:2px solid blue;
+    margin-top: 10px;
+    border-radius: 10px;
 }
-
-a:hover {
-    text-decoration: underline; /* Underline on hover */
+.projectCard h3{
+    font-size: x-large;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-
-/* Tablet and medium devices */
-@media (max-width: 900px) {
-    .projectCard {
-        width: 250px; /* Reduce card width for tablets */
-    }
-
-    h1 {
-        font-size: 2.5rem; /* Reduce font size */
-    }
-
-    h2 {
-        font-size: 1.8rem; /* Reduce font size */
-    }
-
-    h4 {
-        font-size: 1.3rem; /* Reduce font size */
-    }
-}
-
-/* Mobile and small devices */
-@media (max-width: 600px) {
-    #projectsSection {
-        padding-top: 250px;
-        padding-bottom: 60px; /* Reduce padding for mobile devices */
-    }
-
-    .projectCards {
-        flex-direction: column; /* Stack project cards vertically */
-        align-items: center; /* Center the cards */
-    }
-
-    .projectCard {
-        margin: 15px 0; /* Vertical margin for spacing */
-    }
-
-    h1 {
-        font-size: 2rem; /* Smaller font size for mobile */
-    }
-
-    h2 {
-        font-size: 1.5rem; /* Adjust font size */
-    }
-
-    h4 {
-        font-size: 1.2rem; /* Further reduce font size */
-    }
+.projectCard a{
+    font-size: x-large;
+    margin-bottom: 100px;
 }

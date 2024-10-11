@@ -4,6 +4,7 @@ import "./footer.css";
 export const Footer = () => {
   return (
     <footer className="footer">
+      <br/>
       <p>© 2024 Shashank Shetty. All rights reserved.</p>
       <div>
         <a href="https://github.com/oSHASHANKo" aria-label="GitHub Profile">

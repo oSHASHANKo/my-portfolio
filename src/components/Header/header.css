@@ -1,69 +1,33 @@
-.header {
+header{
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
-  padding: 20px 20px; /* Adjusted for smaller screens */
-  border-bottom: 2px solid blue;
-  position: fixed;
+  justify-content: space-between;
   width: 100%;
+  position: fixed;
+  top:0;
+  padding: 10px 0px;
   background-color: black;
+  border-bottom: 2px solid blue;
 }
 
-.domain {
-  font-size: 3rem; /* More scalable units for font size */
+.domain{
+  font-size: xxx-large;
   font-weight: bold;
   color: white;
+  
 }
 
-.navs {
-  margin-right: 25px;
-  font-size: 1.5rem; /* Scalable units for easier adjustment */
-  display: flex;
-  justify-content: space-evenly;
-  gap: 20px; /* Adds gap between links */
+.navs{
+  margin: 0px 10px;
 }
-
-a {
-  margin: 0 10px;
-  text-decoration: none;
+a{
+  font-size: xx-large;
   color: white;
   text-decoration: none;
-  transition: text-decoration 0.2s ease-in-out;
+  margin:0px 10px;
 }
-
-a:hover {
+a:hover{
   text-decoration: underline;
   cursor: pointer;
   color: yellow;
-}
-
-/* Tablet devices */
-@media (max-width: 900px) {
-  .domain {
-    font-size: 2.5rem;
-  }
-
-  .navs {
-    font-size: 1.25rem;
-    gap: 15px;
-  }
-}
-
-/* Mobile devices */
-@media (max-width: 600px) {
-  .header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .domain {
-    font-size: 2rem;
-  }
-
-  .navs {
-    font-size: 1rem;
-    flex-direction: column; /* Stack links vertically */
-    align-items: center;
-    gap: 10px; /* Reduced gap for mobile */
-  }
 }

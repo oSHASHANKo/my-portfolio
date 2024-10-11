@@ -4,6 +4,7 @@ import "./home.css"
 export const Home = () => {
   return (
     <div id="homeSection">
+      <br/><br/><br/>
       <div className="homeContent">
         <div className="homeText">
           <h1 className="greeting1">Hello!!!</h1>

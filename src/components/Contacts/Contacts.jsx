@@ -4,6 +4,7 @@ import "./contacts.css"
 export const Contacts = () => {
     return (
       <div id="contactsSection">
+        <br/><br/><br/>
         <h1>Contact me</h1>
         <h2>If you'd like to get in touch, feel free to reach out!</h2>
         <div className="contact-info">
@@ -38,6 +39,7 @@ export const Contacts = () => {
             </a>
           </p>
         </div>
+        <br/><br/><br/>
       </div>
     );
 
