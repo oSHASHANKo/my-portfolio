@@ -6,7 +6,7 @@ export const Projects = () => {
     {
       title: "My Portfolio",
       image: "/my-portfolio/assets/my-portfolio.png",
-      githubLink: "https://github.com/yourusername/project-one",
+      githubLink: "https://github.com/oSHASHANKo/my-portfolio.git",
     },
   ];
   
