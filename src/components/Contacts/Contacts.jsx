@@ -18,7 +18,7 @@ export const Contacts = () => {
           <h3>LinkedIn:</h3>
           <p>
             <a href="https://www.linkedin.com/in/oshashanko/">
-              https://www.linkedin.com/in/oshashanko/
+            &nbsp;https://www.linkedin.com/in/oshashanko/
             </a>
           </p>
         </div>
@@ -26,7 +26,7 @@ export const Contacts = () => {
           <h3>GitHub:</h3>
           <p>
             <a href="https://github.com/oSHASHANKo">
-              https://github.com/oSHASHANKo
+            &nbsp;https://github.com/oSHASHANKo
             </a>
           </p>
         </div>
@@ -34,7 +34,7 @@ export const Contacts = () => {
           <h3>Twitter:</h3>
           <p>
             <a href="https://x.com/oSHASHANKo">
-              https://x.com/oSHASHANKo
+              &nbsp;https://x.com/oSHASHANKo
             </a>
           </p>
         </div>

@@ -2,23 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 20px 15px; /* Adjusted for smaller screens */
+  padding: 20px 20px; /* Adjusted for smaller screens */
   border-bottom: 2px solid blue;
   position: fixed;
-  top: 0;
   width: 100%;
   background-color: black;
-  z-index: 1000; /* Ensures the header stays on top of content */
 }
 
 .domain {
   font-size: 3rem; /* More scalable units for font size */
   font-weight: bold;
   color: white;
-  white-space: nowrap; /* Prevents text wrapping */
 }
 
 .navs {
+  margin-right: 25px;
   font-size: 1.5rem; /* Scalable units for easier adjustment */
   display: flex;
   justify-content: space-evenly;
@@ -56,7 +54,6 @@ a:hover {
   .header {
     flex-direction: column;
     align-items: center;
-    padding: 15px 10px; /* Reduced padding for mobile */
   }
 
   .domain {

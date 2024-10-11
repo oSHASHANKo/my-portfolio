@@ -1,27 +1,81 @@
-#contactsSection{
+#contactsSection {
     border-bottom: 2px solid blue;
-    height: cal(100vh - 108px);
-    padding:80px 20px
+    height: calc(100vh - 108px); /* Fixed typo: changed 'cal' to 'calc' */
+    padding: 110px 20px;
 }
+
+/* Headings styles */
 h1 {
-    font-size: xxx-large;
+    font-size: 3rem; /* Use rem for scalable fonts */
     color: yellow;
 }
 
 h2 {
-    font-size: xx-large;
-    margin: 0px;
-    color:blue;
+    font-size: 2rem; /* Adjust to rem */
+    margin: 0;
+    color: blue;
 }
 
 h3 {
-    font-size: x-large;
+    font-size: 1.5rem; /* Adjust to rem */
     margin-top: 25px;
-    margin-bottom: 0px;
-    color:white;
+    margin-bottom: 0;
+    color: white;
 }
-.contact-info{
+
+/* Contact information section */
+.contact-info {
     display: flex;
     align-items: baseline;
     margin-top: 10px;
+}
+
+/* Tablet and medium devices */
+@media (max-width: 900px) {
+    #contactsSection {
+        padding: 80px 20px;
+        height: auto; /* Allow section to grow naturally based on content */
+    }
+
+    h1 {
+        font-size: 2.5rem; /* Reduce font size for tablets */
+    }
+
+    h2 {
+        font-size: 1.8rem; /* Slightly smaller for medium screens */
+    }
+
+    h3 {
+        font-size: 1.3rem; /* Adjust accordingly */
+    }
+
+    .contact-info {
+        flex-direction: column; /* Stack the contact info vertically */
+    }
+}
+
+/* Mobile and small devices */
+@media (max-width: 600px) {
+    #contactsSection {
+        padding-top: 250px;
+        padding-bottom: 60px;        
+        height: auto; /* Let the content decide the height */
+    }
+
+    h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Adjust for mobile readability */
+    }
+
+    h3 {
+        margin-top: 0;
+        font-size: 1.2rem; /* Further reduce size for mobile */
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
 }

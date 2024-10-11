@@ -18,7 +18,7 @@ export const Footer = () => {
           LinkedIn
         </a>{" "}
         |
-        <a href="https://twitter.com/yourusername" aria-label="Twitter Profile">
+        <a href="https://x.com/oSHASHANKo" aria-label="Twitter Profile">
           {" "}
           Twitter
         </a>

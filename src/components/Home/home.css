@@ -75,7 +75,7 @@ img {
   .homeContent {
     flex-direction: column;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 150px;
     padding-bottom: 60px;
   }
 
@@ -88,7 +88,7 @@ img {
   }
 
   .homeText {
-    margin: 0 15px; /* Add some side margins for text */
-    text-align: center; /* Center the text on mobile for better flow */
+    margin: 0 15px;
+    margin-bottom: 20px; /* Add some side margins for text */
   }
 }

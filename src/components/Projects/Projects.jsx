@@ -1,22 +1,12 @@
-import React from 'react'
-import "./projects.css"
+import React from 'react';
+import "./projects.css";
 
 export const Projects = () => {
   const projectData = [
     {
-      title: "Project One",
-      image: "https://via.placeholder.com/150", // Replace with actual project image URLs
+      title: "My Portfolio",
+      image: "./src/assets/my-portfolio.png",
       githubLink: "https://github.com/yourusername/project-one",
-    },
-    {
-      title: "Project Two",
-      image: "https://via.placeholder.com/150", // Replace with actual project image URLs
-      githubLink: "https://github.com/yourusername/project-two",
-    },
-    {
-      title: "Project Three",
-      image: "https://via.placeholder.com/150", // Replace with actual project image URLs
-      githubLink: "https://github.com/yourusername/project-three",
     },
   ];
   
@@ -28,8 +18,8 @@ export const Projects = () => {
         {projectData.map((project, index) => (
           <div key={index} className="projectCard">
             <img src={project.image} alt={project.title} />
-            <h3>{project.title}</h3>
-            <a href={project.githubLink}>
+            <h4>{project.title}</h4>
+            <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
               View on GitHub
             </a>
           </div>
